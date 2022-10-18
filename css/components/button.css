@@ -1,0 +1,15 @@
+.btn-yours{
+  display: inline-block;
+  background: #1EDD88;
+  color: white;
+  padding: 1.6rem 4.5rem;
+  border-radius: .5rem;
+  font-size: 1.6rem;
+}
+/* Hover My btn */
+.btn-yours:hover{
+  background: #00ba66;
+  transition: 0.4s;
+  cursor: pointer;
+  color: white;
+}

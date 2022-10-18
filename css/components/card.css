@@ -1,0 +1,45 @@
+.section-cards {
+  padding: 2rem;
+}
+.section-cards h2 {
+  text-align: center;
+  font-size: 3rem;
+  padding: 2rem;
+}
+.section-card {
+  display: flex;
+  justify-content: space-evenly;
+  margin: auto;
+}
+/* Card style */
+.card{
+  text-align: center;
+	background: #fff;
+  margin: 1.4rem 0;
+  width: 24rem;
+  border: .01rem solid rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem;
+	box-shadow: 0 0 1.6rem rgba(0, 0, 0, 0.1);
+  transition: .5s;
+}
+.card:hover {
+  transform: translateY(-1.5rem);
+  box-shadow: 0 10px 40px rgba(26, 81, 99,.2);
+  background: linear-gradient(45deg, rgba(255, 122, 101, 0.03),rgba(26, 81, 99, 0.03));
+}
+
+.card-body {
+  margin: 0;
+  /* padding: 1.6rem; */
+}
+.card h3{
+  padding: 1rem;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.card p{
+	margin: 0;
+  padding: 2rem 0;
+  font-size: 1.6rem;
+  opacity: 0.4;
+}

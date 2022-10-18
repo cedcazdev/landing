@@ -1,0 +1,22 @@
+/* footer style */
+.footer {
+	background: #2C2B2B;
+	text-align: center;
+	padding: 6rem 0;
+  font-size: 1.6rem;
+}
+
+/* footer social-red */
+.footer a{
+  font-size: 3rem;
+}
+.footer a .fab{
+  color: #00BA66;
+}
+.footer p{
+  color: #7d7b7b;
+  margin: 1.6rem;
+}
+.footer .fas{
+  color: #ba0000;
+}
